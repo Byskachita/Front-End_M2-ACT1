@@ -5,11 +5,12 @@
     /***********************************GENERALES*/
 body * {
     font-family: 'Poppins', sans-serif;
+    max-width: 480px;
 }
 
 main {
     width: 100%;
-/*    max-width: 80%;*/
+    max-width: 80%;
     margin: auto;
 }
 
@@ -17,7 +18,6 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    
 }
 
 h2 {
@@ -30,21 +30,6 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
-
-h5 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-}
-
-h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
 }
 
 /*************************************NAVEGACIÓN*/
@@ -166,6 +151,7 @@ footer {
 
 footer .grupo-1 {
     width: 100%;
+    max-width: 480px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -195,13 +181,13 @@ footer .icon_section img {
     height: 40px;
 }
 
-footer .box h4 {
+footer .box h3 {
     margin: 10px 25px;
     font-size: 20px;
     color: #227C9D;
 }
 
-footer .grupo-1 .box .text_container h5 {
+footer .grupo-1 .box .text_container h4 {
     margin-bottom: 10px;
     font-size: 15px;
     color: #227C9D;
@@ -287,11 +273,11 @@ footer .bi-whatsapp:hover {
 }
 
 .txt_head h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .txt_head h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .InfoCARD {
@@ -345,32 +331,15 @@ footer .bi-whatsapp:hover {
     height: 40%;
 }
 
-.card-bodyD h5 {
+.card-bodyD h2 {
     color: #227C9D;
+    font-size: 20px;
 }
 
 .card-bodyD p {
     color: lightslategrey;
 }
 
-
-/*****************************************SECTION SMOTH*/
-
-.smoth {
-    display: none;
-    width: 100%;
-    height: auto;
-}
-
-.card-img-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.card-img {
-    width: auto;
-    height: 230px;
-    object-fit: cover;
-}
 
 /**/
 /**/
@@ -421,7 +390,7 @@ footer .bi-whatsapp:hover {
     width: 100%;
 }
 
-.container-fluid h3 {
+.container-fluid h2 {
     color: #227C9D;
 } 
 
@@ -438,8 +407,9 @@ footer .bi-whatsapp:hover {
     height: 60%;
 }
 
-.card-bodyN h5 {
+.card-bodyN h3 {
     color: #227C9D;
+    font-size: 20px;
 }
 
 .card-bodyN p {
@@ -496,6 +466,10 @@ footer .bi-whatsapp:hover {
 }
 
 /********************************************************FORM*********************************************/
+#formulario h2 {
+    color: #227C9D;
+    font-size: 30px;
+}
 
 input .placeholder {
     color: rgb(223, 221, 221);
@@ -523,5 +497,11 @@ input .placeholder {
     background-color: #FE6D73;
 }
 
+/********************************************************UBICACION*********************************************/
+.mapa h2 {
+    color: #227C9D;
+    font-size: 30px;
+
+}
 }
 
