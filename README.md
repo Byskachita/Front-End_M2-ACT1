@@ -29,3 +29,6 @@ Trabajo práctico para desarrollar una página web de hospital que debe contener
       <p><em>Además se crean las vistas de @media en tamaño 768px archivo @MQ.tablet.css y 480px archivo @MQ.mobile.css</em></p>
     </li>
   </ul>
+
+  <h2><strong>Revisa la página en el siguiente enlace</strong></h2> 
+  https://byskachita.github.io/Front-End_M2-ACT1/
