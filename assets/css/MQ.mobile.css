@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (max-width: 480px) {
+
+    /***********************************GENERALES*/
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+/*************************************NAVEGACIÓN*/
+
+.container_nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.B-top-item {
+    width: 100%;
+    height: 80px;
+    background-color: #FEF9EF;
+    list-style: none;
+}
+
+.B-top-item img{
+    width: 15px;
+    height: auto;
+}
+
+.B-top-item a{
+    color: #000000;
+    font-size: small;
+}
+
+.B-top-item button {
+    background-color: #FE6D73;
+    border-style: none;
+    width: 180px;
+    height: 50px;
+}
+
+.B-top-item button:hover {
+    background-color: #FFCB77;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 80%;
+    margin: auto; 
+}
+
+.collapse ul {
+    background-color: white;
+    font-weight: 500;
+    font-style: normal;
+    font-size: medium;
+}
+
+.navbar img {
+    width: auto;
+    height: 100px;
+}
+
+.navbar .navbar-brand {
+    width: 40px;
+    height: auto;
+}
+
+.nav-item a {
+    color: #227C9D;
+}
+
+.nav-item a:hover {
+    color: #FE6D73;
+}
+
+
+/*******************************************WHATSAP*/
+
+#whatsapp a{
+    text-decoration: none;
+  }
+  #whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right:20px;
+  }
+  svg {
+      width: 80px;
+      display: inline-block;
+    vertical-align: middle;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+  }
+  circle {
+    fill: #25d366;
+  }
+  path {
+      fill:  #fff;
+  }
+  #whatsapp a {padding: 20px 0;}
+  #whatsapp a::before {
+      content: 'Te asesoramos';
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px 10px;
+      margin-right: 10px;
+      color: rgba(0, 0, 0, .8);
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+      transition: .3s ease;
+      opacity: 0;
+  }
+  #whatsapp:hover a::before {opacity: 1;}
+
+/*******************************************FOOTER*/
+
+footer {
+    background-color: #FEF9EF;
+    width: 100%;
+    height: auto;
+}
+
+footer .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+
+/*LOGO*/
+footer .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .grupo-1 .box figure img {
+    width: 200px;
+}
+
+footer .grupo-1 .box .icon_section {
+    display: flex;
+    margin: 10px 10px;
+    align-items: center;
+}
+
+footer .icon_section img {
+    width: auto;
+    height: 40px;
+}
+
+footer .box h4 {
+    margin: 10px 25px;
+    font-size: 20px;
+    color: #227C9D;
+}
+
+footer .grupo-1 .box .text_container h5 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #227C9D;
+}
+
+footer .box li {
+    margin-bottom: 10px;
+    color: #227C9D;
+    list-style: none;
+}
+
+footer .box li:hover {
+    color: #FE6D73;
+}
+
+
+footer .grupo-2 {
+    background-color: #227C9D;
+    padding: 10px 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+}
+
+footer .bi-facebook {
+    color: #17C3B2;
+    font-size: x-large;
+}
+
+footer .bi-facebook:hover {
+    color: #FE6D73;
+}
+
+footer .bi-instagram {
+    color: #17C3B2;
+    font-size: x-large;
+}
+
+footer .bi-instagram:hover {
+    color: #FE6D73;
+}
+
+footer .bi-whatsapp {
+    color: #17C3B2;
+    font-size: x-large;
+}
+
+footer .bi-whatsapp:hover {
+    color: #FE6D73;
+}
+
+/**/
+/**/
+/*********************************HOME***************************************************/
+/**/
+/**/
+
+/********************************HERO SECTION*/
+
+.header {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.25), rgba(5, 7, 12, 0.25)), url(../img/Doctora1.jpg);
+    opacity: 1;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+
+#headerTOP {
+    display: flex;
+    align-items: left;
+}
+
+.InfoTOP {
+    position: absolute;
+    text-align: left;
+    top: 350px;
+    margin: 10px auto; 
+}
+
+.txt_head h1 {
+    font-size: 40px;
+}
+
+.txt_head h2 {
+    font-size: 30px;
+}
+
+.InfoCARD {
+    position: absolute;
+    top: 550px;
+    text-align: center;
+}
+
+.card-icon {
+    transition: all 300ms;
+}
+
+.card-icon:hover {
+    transform: scale(1.15);
+}
+
+.card-body-icon {
+    background-color: #FEF9EF;
+    border-radius: 25px;
+}
+
+.card .card-body-icon img {
+    width: 80px;
+    height: auto;
+}
+
+.card-body-icon h3 {
+    font-size: 15px;
+}
+
+/*****************************************DESTACADOS*/
+
+#Destacados {
+    width: 100%;
+}
+#Destacados .card-destacados {
+    width: 100%;
+    height: 200px;
+}
+
+.card-img-topD {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.card-bodyD {
+    text-align: center;
+    background-color: #FEF9EF;
+    width: 100%;
+    height: 40%;
+}
+
+.card-bodyD h5 {
+    color: #227C9D;
+}
+
+.card-bodyD p {
+    color: lightslategrey;
+}
+
+
+/*****************************************SECTION SMOTH*/
+
+.smoth {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+    width: auto;
+    height: 230px;
+    object-fit: cover;
+}
+
+/**/
+/**/
+/******************************************************NOSOTROS***************************************************/
+/**/
+/**/
+
+/**********************************************************HERO SECTION******************************************/
+
+.header-nosotros {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.25), rgba(5, 7, 12, 0.25)), url(../img/Doctora1.jpg);
+    opacity: 1;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+
+#headerTOP-nosotros {
+    display: flex;
+    align-items: left;
+}
+
+.InfoTOP-nosotros {
+    position: absolute;
+    text-align: left;
+    top: 300px;
+    padding-right: 500px;
+}
+
+.txt_head_n h1 {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.txt_head_n h2 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/********************************************************ESPECIALISTAS***********************************/
+
+#Especialistas {
+    width: 100%;
+}
+
+.container-fluid h3 {
+    color: #227C9D;
+} 
+
+.card-img-topN {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.card-bodyN {
+    text-align: center;
+    background-color: #FEF9EF;
+    width: 100%;
+    height: 60%;
+}
+
+.card-bodyN h5 {
+    color: #227C9D;
+}
+
+.card-bodyN p {
+    color: lightslategrey;
+}
+
+/**********************************************************DATE****************************************************/
+
+.date {
+    background-color: #FE6D73;
+}
+
+/**/
+/**/
+/******************************************************CONTACTO***************************************************/
+/**/
+/**/
+
+/**********************************************************HERO SECTION******************************************/
+
+.header-contacto {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.25), rgba(5, 7, 12, 0.25)), url(../img/Doctora1.jpg);
+    opacity: 1;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+
+#headerTOP-contacto {
+    display: flex;
+    align-items: left;
+}
+
+.InfoTOP-contacto {
+    position: absolute;
+    text-align: left;
+    top: 300px;
+    padding-right: 500px;
+}
+
+.txt_head-c h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.txt_head-c h2 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/********************************************************FORM*********************************************/
+
+input .placeholder {
+    color: rgb(223, 221, 221);
+}
+
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
+
+.form-group {
+    border-color: #17C3B2;
+}
+
+.form-group button {
+    width: 100%;
+    background-color: #17C3B2;
+    border: none;
+}
+
+.form-group button:hover {
+    background-color: #FE6D73;
+}
+
+}
+
