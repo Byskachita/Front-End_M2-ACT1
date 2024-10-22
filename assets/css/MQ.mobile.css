@@ -9,7 +9,7 @@ body * {
 
 main {
     width: 100%;
-    max-width: 80%;
+/*    max-width: 80%;*/
     margin: auto;
 }
 
@@ -166,7 +166,6 @@ footer {
 
 footer .grupo-1 {
     width: 100%;
-    max-width: 1200px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -284,7 +283,7 @@ footer .bi-whatsapp:hover {
     position: absolute;
     text-align: left;
     top: 350px;
-    margin: 10px auto; 
+  /*  margin: 10px auto; */
 }
 
 .txt_head h1 {
@@ -402,12 +401,12 @@ footer .bi-whatsapp:hover {
 .InfoTOP-nosotros {
     position: absolute;
     text-align: left;
-    top: 300px;
-    padding-right: 500px;
+    top: 400px;
+    padding-right: 80px;
 }
 
 .txt_head_n h1 {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 200;
 }
 
@@ -482,8 +481,8 @@ footer .bi-whatsapp:hover {
 .InfoTOP-contacto {
     position: absolute;
     text-align: left;
-    top: 300px;
-    padding-right: 500px;
+    top: 350px;
+    padding-right: 80px;
 }
 
 .txt_head-c h1 {

@@ -59,7 +59,7 @@ h3 {
 .B-top-item button {
     background-color: #FE6D73;
     border-style: none;
-    width: 250px;
+    width: 230px;
     height: 50px;
 }
 
@@ -148,12 +148,12 @@ footer {
 
 footer .grupo-1 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 768px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    padding: 45px 0;
+    padding: 20px 0;
 }
 
 /*LOGO*/
@@ -204,7 +204,7 @@ footer .box li:hover {
 
 footer .grupo-2 {
     background-color: #227C9D;
-    padding: 15px 10px;
+    padding: 15px 15px;
     text-align: center;
     color: #000000;
 }
@@ -266,7 +266,7 @@ footer .bi-whatsapp:hover {
     position: absolute;
     text-align: left;
     top: 350px;
-    margin: 10px auto; 
+/*    margin: 10px auto; */
 }
 
 .txt_head h1 {
@@ -283,27 +283,6 @@ footer .bi-whatsapp:hover {
     text-align: center;
 }
 
-.card-icon {
-    transition: all 300ms;
-}
-
-.card-icon:hover {
-    transform: scale(1.15);
-}
-
-.card-body-icon {
-    background-color: #FEF9EF;
-}
-
-.card .card-body-icon img {
-    width: 60px;
-    height: auto;
-}
-
-.card-body-icon h3 {
-    font-size: 10px;
-}
-
 /*****************************************DESTACADOS*/
 
 #Destacados {
@@ -311,12 +290,12 @@ footer .bi-whatsapp:hover {
 }
 #Destacados .card-destacados {
     width: 100%;
-    height: 200px;
+    height: 80px;
 }
 
 .card-img-topD {
     width: 100%;
-    height: 40%;
+    height: 60%;
     object-fit: cover;
 }
 
@@ -324,7 +303,7 @@ footer .bi-whatsapp:hover {
     text-align: center;
     background-color: #FEF9EF;
     width: 100%;
-    height: 60%;
+    height: 40%;
 }
 
 .card-bodyD h5 {
@@ -333,25 +312,6 @@ footer .bi-whatsapp:hover {
 
 .card-bodyD p {
     color: lightslategrey;
-}
-
-
-/*****************************************SECTION SMOTH*/
-
-.smoth {
-    display: none;
-    width: 100%;
-    height: auto;
-}
-
-.card-img-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.card-img {
-    width: auto;
-    height: 230px;
-    object-fit: cover;
 }
 
 /**/
