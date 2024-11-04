@@ -15,6 +15,9 @@ Trabajo práctico para desarrollar una página web de hospital que debe contener
 2. Vista del Equipo Médico <br>
 3. Vista de Contacto</strong>
 
+<strong> Este texto se subio como archivo a la plataforma, agrego link que redirige a esta misma páginas donde se pueden visualizar las carpetas creadas</strong>
+https://github.com/Byskachita/Front-End_M2-ACT1
+
    Como extra genere el siguiente archivo para utilizarlo como guía en el diseño.
    https://www.figma.com/design/m01ncM5QlpLM2HHTwjuKlC/Hospital---Vistas?node-id=7-228&t=ZBct0Mb5SBkhp97W-1
 
